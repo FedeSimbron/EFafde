@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f7f2;
+}
+
+header{
+    width: 100%;
+    height: 130px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.253);
+}
+
+.section-uno{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+    height: 100%;
+}
+
+.container-p{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(112, 110, 110);
+}
+
+
+.div-enlaces a{
+    margin-left: 7px;
+    
+}
+.div-enlaces a img{
+    width: 30px;
+    border: 1px solid rgb(112, 110, 110);
+}
+
+/* Arranca el main */
+
+.container-logo{
+    width: 100%;
+    max-width: 700px;
+    margin: 0px auto;
+}
+
+.container-logo .logo{
+    display: block;
+    width: 80%;
+    margin: 0px auto;
+}
+
+/* Arrancan los items carrusel */
+
+.producto{
+    width: 300px;
+    height: 450px;
+    margin: 50px auto;
+    padding-top: 20px;
+    background-color: rgb(252, 215, 215);
+}
+
+.producto h3{
+    font-size: 23px; 
+}
+.producto h4{
+    color: green;
+    margin: 20px auto;
+    border: 1px solid green;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.contenedor-principal{
+    overflow: hidden;
+    height: 291px;
+    width: 300px;
+    margin: 0px auto;
+}
+
+.itemcarrusel{
+    display: block;
+    width: 250px;
+    height: 291px;
+    margin: 0px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.container-carrusel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.flechas-carrusel{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.flechas-carrusel a{
+    color: #000;
+}
+
+.nombre-descripcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container-productos{
+    max-width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+}
+
+/* imagenes de los productos */
+
+.container-productos img{
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.itemsiete{
+    width: 10px;
+}
+
+
+
+
+/* Arranca el footer */
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(217, 204, 213);
+}
+
+footer h4{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: rgb(184, 182, 182);
+    text-decoration:underline;
+}
