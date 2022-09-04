@@ -64,7 +64,8 @@ header{
 
 .producto h3{
     font-size: 23px; 
-    
+    width: 80%;
+    margin: 0px auto;
 }
 .producto h4{
     color: green;
