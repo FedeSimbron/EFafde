@@ -57,7 +57,6 @@ header{
 
 .producto{
     width: 300px;
-    height: 450px;
     margin: 50px auto;
     padding-top: 20px;
     background-color: rgb(252, 215, 215);
@@ -65,6 +64,7 @@ header{
 
 .producto h3{
     font-size: 23px; 
+    
 }
 .producto h4{
     color: green;
@@ -72,6 +72,11 @@ header{
     border: 1px solid green;
     padding: 5px 10px;
     border-radius: 30px;
+}
+.producto p{
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 10px;
 }
 
 .contenedor-principal{
