@@ -102,7 +102,7 @@ header{
     align-items: center;
     height: 100%;
     width: 100%;
-    
+    cursor: pointer;
 }
 
 .flechas-carrusel{
