@@ -1,4 +1,4 @@
-const agrandar= document.querySelector(".container-carrusel");
+const agrandar= document.querySelectorAll(".producto");
 
 agrandar.addEventListener("click", cambiar);
 
