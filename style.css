@@ -148,7 +148,11 @@ header{
     width: 10px;
 }
 
+/* Agrandar */
 
+.active{
+    display: none;
+}
 
 
 /* Arranca el footer */
